@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+<style>
+
+   .part-2-regis {
+    background: url(collage1.jpg) center no-repeat;
+    background-size: 100% auto;
+    height: 1000px;
+    background-position: 0 0;
+   }
+
+</style>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
+
+  <div class="row" height="800px">
+    <div class="col-4">
+      <!-- multistep form -->
+      <form id="msform">
+        <!-- progressbar -->
+        <!-- <ul id="progressbar">
+          <li class="active">Account Details</li>
+          <li>Social Profiles</li>
+          <li>Personal Details</li>
+        </ul> -->
+        <!-- fieldsets -->
+        <!-- <fieldset> -->
+          <!-- <h2 class="fs-title">Create your account</h2> -->
+          <!-- <h2 class="fs-title">Personal Details</h2>
+          <h3 class="fs-subtitle">We will never sell it</h3>
+          <input type="text" name="fname" placeholder="First Name" />
+          <input type="text" name="lname" placeholder="Last Name" />
+          <input type="text" name="DOB" placeholder="Date Of Birth" />
+<div class="gen">
+          Gender<br>
+          <input style="width:auto;" type="radio" name="gender" value="M"> M <span style="float:right;"><input style="width: auto;" type="radio" name="gender" value="F" style="float:right;"> F</span>
+</div>
+          <input type="button" name="next" class="next action-button" value="Next" />
+        </fieldset>
+        <fieldset>
+          <h2 class="fs-title">Contact Details</h2>
+          <h3 class="fs-subtitle">Your presence on the network</h3>
+          <input type="text" name="phone" placeholder="Phone" /> -->
+          <!-- <input type="text" name="phone" placeholder="Emergency Number" />
+          <div class="id">
+          Identification<br>
+        <br>  <select id="P_ID" name="P_ID" onchange="ev(18135493,event,this);this.prevValue=this.value;" onfocus="evf(this);" onblur="ev(18135493,event,this);" onkeyup="ev(18135493,event);" class="Answer" aria-labelledby="tdQ18135493" fd:type="7">
+          <option value="Please make a choice">Please make a choice</option><option value="Aadhar Number">Aadhar Number</option><option value="Driver's license">Driver's license</option><option value="Passport">Passport</option></select>
+          </div>
+          <input type="text" name="phone" placeholder="Identification number" /> -->
+          <!-- <textarea name="address" placeholder="Address"></textarea>
+          <input type="button" name="previous" class="previous action-button" value="Previous" />
+          <input type="button" name="next" class="next action-button" value="Next" />
+        </fieldset> -->
+        <fieldset>
+          <h2 class="fs-title">Member Login</h2>
+          <h3 class="fs-subtitle">We will never sell it</h3>
+          <input type="text" name="email" placeholder="Email" />
+          <input type="password" name="pass" placeholder="Password" />
+          <!-- <input type="password" name="cpass" placeholder="Confirm Password" /> -->
+          <!-- <input type="button" name="previous" class="previous action-button" value="Previous" /> -->
+          <input type="submit" name="submit" class="submit action-button" value="Login" />
+        </fieldset>
+      </form>
+
+    </div>
+    <div class="col-8 part-2-regis">
+
+    </div>
+  </div>
+</div>
+
+  <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+
+
+
+  <script src="js/index.js"></script>
+
+<!-- <div data-role="control" data-type="date" data-hash="0000000d" data-type-id="3" data-colspan="5" aria-labelledby="date-0000000d-acc date-0000000d-error-acc date-0000000d-instr-acc" data-is-required="1" data-renderer-type="tln" data-id="24548330" data-is-active="1"><label data-role="label" id="date-0000000d-acc" data-i18n-text="control_label_24548330">Date of Birth</label><dt data-role="instructions" id="date-0000000d-instr-acc" data-is-empty="1" data-i18n-text="control_instructions_24548330"></dt><div data-role="input-row" data-is-first-row="1" data-is-last-row="1" data-fill-colspan="0"><div data-ui-role="ui-element" data-type="date" tabindex="0" data-role="i123-input" aria-live="assertive" role="alert" aria-labelledby="date-0000000d-acc date-0000000d-error-acc date-0000000d-instr-acc date-0000000d-day date-0000000d-month date-0000000d-year" data-size="full"><div data-role="date-wrapper"><div data-role="date-part" data-part="day" aria-labelledby="date-0000000d-day" id="date-0000000d-day" data-is-null="" data-i18n-text="textdef_63" data-is-focused="data-is-focused">DD</div><span data-delimiter="1">/</span><div data-role="date-part" data-part="month" aria-labelledby="date-0000000d-month" id="date-0000000d-month" data-is-null="" data-i18n-text="textdef_66">MM</div><span data-delimiter="1">/</span><div data-role="date-part" data-part="year" aria-labelledby="date-0000000d-year" id="date-0000000d-year" data-is-null="" data-i18n-text="textdef_64">YYYY</div></div><div data-role="expander" role="application"></div></div></div><label data-role="error" id="date-0000000d-error-acc" data-is-empty="1"></label></div> -->
+
+
+
+</body>
+
+</html>
